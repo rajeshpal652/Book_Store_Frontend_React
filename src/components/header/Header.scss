@@ -1,0 +1,94 @@
+.homePage{
+    display: flex;
+    flex-direction: row;
+    background-color: #A03037;
+    width: 100%;
+    height: 90px;
+    align-items: center;
+   
+    .image{
+        width: 38px;
+        height: 32px;
+        margin-left: 10%;
+    }
+    .imagetitle{
+        color: white;
+        margin-left: 1%;
+    }
+    .searchbar{
+        width: 530px;
+        height: 38px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        margin-left: 3%;
+        border-radius: 5px ;
+        .search{
+            outline: none;
+            border: 0px;
+            width: 480px;
+        }
+    }
+    .none-searchbar{
+        width: 530px;
+        height: 38px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        margin-left: 3%;
+        border-radius: 5px ;
+        visibility: hidden;
+        .search{
+            outline: none;
+            border: 0px;
+            width: 480px;
+        }
+    }
+    .details{
+        width: 50px;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 5.5%;
+        margin-top: 1.5%;
+        padding-bottom: 3px;
+       
+        .person{
+            width: 133px;
+            font-size: 13px;
+            margin-right: 5%;
+            align-self: auto;
+            color : white;
+        }
+    }
+    .details-cart{
+        width: 55px;
+        height: 48px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 5.5%;
+        margin-top: 1%;
+        
+        
+    }
+    .wishd{
+        width: 50px;
+        height: 48px;
+        margin-left: 5.5%;
+        .wishdetails{
+          
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 5%;
+            
+        }
+        .wish{
+            width: 36px;
+            font-size: 13px;
+            color : white;
+        }
+    }
+   
+   
+}

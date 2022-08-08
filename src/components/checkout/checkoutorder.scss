@@ -1,0 +1,84 @@
+.checkout-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .image{
+        width: 170px;
+        height: 140px;
+        margin-top: 2%;
+    }
+    .image2{
+        width: 170px;
+        height: 140px;
+        margin-top: 2%;
+        margin-left:6%;
+    }
+    .message{
+        width: 354px;
+        height: 66px;
+    }
+    .order-msg{
+        font: normal normal bold 25px/30px Lato;
+    }
+    .information{
+        margin-top: 2%;
+        width: 751px;
+        height: 112px;
+        border: 1px solid #DCDCDC;
+        .headi{
+            width: 751px;
+            height: 40px;
+            background: #FAFAFA 0% 0% no-repeat padding-box;
+            border: 1px solid #DCDCDC;
+            
+            .email{
+                width: 33%;
+                padding-left: 10%;
+                
+            }
+            .contact{
+                width: 33%;
+                padding-left: 10%;
+            }
+
+            .add{
+                width: 33%;
+                padding-left: 10%;
+            }
+        }
+        .data{
+            .email{
+                width: 33%;
+                padding-left: 10%;
+                
+            }
+            .contact{
+                width: 33%;
+                padding-left: 10%;
+            }
+
+            .add{
+                width: 33%;
+                padding-left: 10%;
+            }
+            
+        }
+        
+       
+        
+    }
+}
+.bn{
+    margin-top: 1%;
+    .shopping-button{
+        width: 200px;
+        height: 35px;
+       background-color: #3371B5;
+       border: none;
+       color: aliceblue;
+
+    }
+}

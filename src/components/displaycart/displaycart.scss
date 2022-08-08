@@ -1,0 +1,218 @@
+.maincart-container {
+  min-height: 525px;
+}
+.heading {
+  margin-left: 10%;
+}
+
+.empty-cart-container {
+    width: 774px;
+    height: 200px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #dcdcdc;
+    border-radius: 3px;
+    margin-left: 10%;
+    margin-top: 2%;
+    padding-left: 2%;
+}
+.cart-container {
+  width: 774px;
+  height: auto;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #dcdcdc;
+  border-radius: 3px;
+  margin-left: 10%;
+  margin-top: 2%;
+  padding-left: 2%;
+
+  .my-cart {
+    width: 150px;
+    height: 40px;
+    text-align: left;
+    font: normal normal medium 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #0a0102;
+  }
+  .content-container {
+    display: flex;
+
+    margin-top: 3%;
+    .cart-description {
+      margin-left: 3%;
+      .book-nam {
+        width: 133px;
+        height: auto;
+        text-align: left;
+        font: normal normal normal 18px/17px Lato;
+        letter-spacing: 0px;
+        color: #0a0102;
+        margin-bottom: 15%;
+      }
+      .author-nam {
+        width: 133px;
+        height: auto;
+        text-align: left;
+        font: normal normal normal 15px/18px Lato;
+        letter-spacing: 0px;
+        color: #9d9d9d;
+        margin-bottom: 15%;
+      }
+      .pricetage {
+        font-weight: 600;
+      }
+    }
+  }
+  .update-cart {
+    display: flex;
+    margin-left: 16%;
+    margin-bottom: 2%;
+    .remove {
+      margin-left: 3%;
+    }
+    .cart-quantity {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 20px;
+      width: 28px;
+      border: 1px solid;
+      border-color: #9d9d9d;
+    }
+  }
+  .button-order {
+    height: 35px;
+    width: 160px;
+    margin-bottom: 3%;
+    background-color: #3371b5;
+    margin-left: 70%;
+    color: #ffffff;
+  }
+}
+.customer-details {
+  width: 812px;
+  height: 60px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #dcdcdc;
+  border-radius: 1px;
+  margin-left: 10%;
+  margin-top: 1%;
+  display: flex;
+  align-items: center;
+  .inside-details {
+    margin-left: 5%;
+    width: 100%;
+    height: 18px;
+    text-align: left;
+    font: normal normal normal 20px/22px Lato;
+    color: #4d4747;
+  }
+}
+.customer-detail {
+  width: 812px;
+  height: auto;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #dcdcdc;
+  border-radius: 1px;
+  margin-left: 10%;
+  margin-top: 1%;
+  display: flex;
+  align-items: center;
+  .inside-customerdetails {
+    width: 100%;
+  }
+  .text-fields {
+    display: flex;
+    margin-top: 2%;
+    .name-field {
+      margin-left: 8%;
+    }
+    .mobile-num {
+      margin-left: 4%;
+    }
+  }
+  .Address {
+    margin-left: 8%;
+    margin-top: 2%;
+  }
+  .type {
+    margin-left: 8%;
+    margin-top: 2.5%;
+  }
+  .radio {
+    margin-left: 8%;
+  }
+  .continue-button {
+    width: 150px;
+    height: 35px;
+    background: #3371b5 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    border: 0px;
+    color: #ffffff;
+    margin-left: 75%;
+    margin-bottom: 3%;
+  }
+}
+
+.order-details {
+  width: 812px;
+  height: auto;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #dcdcdc;
+  border-radius: 1px;
+  margin-left: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  .inside-orderdetails {
+    width: 125px;
+    height: 24px;
+    text-align: left;
+    font: normal normal medium 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #333232;
+    margin-left: 8%;
+    margin-top: 3%;
+  }
+}
+
+.content-containers {
+  display: flex;
+  margin-left: 8%;
+  margin-top: 3%;
+  .cart-descriptions {
+    margin-left: 3%;
+    .book-nams {
+      width: 133px;
+      height: auto;
+      text-align: left;
+      font: normal normal normal 18px/17px Lato;
+      letter-spacing: 0px;
+      color: #0a0102;
+      margin-bottom: 15%;
+    }
+    .author-nams {
+      width: 133px;
+      height: 12px;
+      text-align: left;
+      font: normal normal normal 15px/18px Lato;
+      letter-spacing: 0px;
+      color: #9d9d9d;
+      margin-bottom: 15%;
+    }
+    .pricetages {
+      font-weight: 600;
+    }
+  }
+}
+.sub-total{
+  margin-left: 300px;
+}
+.checkout-button {
+  width: 160px;
+  height: 35px;
+  background: #3371b5 0% 0% no-repeat padding-box;
+  border-radius: 3px;
+  color: #ffffff;
+  margin-left: 75%;
+  border: none;
+  margin-bottom: 2%;
+}
